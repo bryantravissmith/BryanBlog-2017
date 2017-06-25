@@ -11,3 +11,13 @@ body {
     height: 100%;
     margin: auto;
 }
+
+.cell.border-box-sizing.text_cell.rendered p {
+    margin-top: 1.2em;
+}
+
+.cell.border-box-sizing.text_cell.rendered {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-bottom: 3em;
+}

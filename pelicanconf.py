@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Bryan Travis Smith, Ph.D'
 SITENAME = 'Bryan Travis Smith, Ph.D'
-SITEURL = 'http://bryantravissmith.com'
+SITEURL = 'https://bryantravissmith.github.io'
 
 PATH = 'content'
 # Useful for Development
-RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -30,6 +30,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+STATIC_PATHS = ['AffectivaDemo']
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
@@ -43,7 +45,7 @@ SOCIAL = (('LinkedIn', 'http://linkedin.com/in/bryantravissmith'),
 DEFAULT_PAGINATION = 10
 
 COLOR_SCHEME_CSS = 'github.css'
-HEADER_COLOR = '#0085a1'
+HEADER_COLOR = 'DARKTURQUOISE'
 # Added for Jupyter Notebook integration
 # https://github.com/danielfrg/pelican-ipynb
 
