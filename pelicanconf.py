@@ -37,20 +37,25 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
+SOCIAL = (('LinkedIn', 'http://linkedin.com/in/bryantravissmith'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
+COLOR_SCHEME_CSS = 'github.css'
+HEADER_COLOR = '#0085a1'
 # Added for Jupyter Notebook integration
 # https://github.com/danielfrg/pelican-ipynb
 
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup']
-
+PLUGIN_PATHS = ['pelican-plugins']       # Ensure your plugin path is in it
+PLUGINS = ['ipynb2pelican']             # Name of the plugin
 IGNORE_FILES = ['.ipynb_checkpoints']
+
+# PLUGIN_PATHS = ['./plugins']
+# PLUGINS = ['ipynb.markup']
+
 IPYNB_USE_META_SUMMARY = True
 
 # Set Defaults
